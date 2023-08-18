@@ -5,6 +5,7 @@ import * as S from "./Style.js";
 
 function MyPage(props) {
 
+
     const defaultProfileImgSrc = "https://www.cincinnatichildrens.org/-/media/Cincinnati-Childrens/Global-Shared/Biographies/s/DefaultUser.jpg?mw=220&hash=5C9994F8BEF51B7B41275D5DB522A239";
     const profieImgSrc = localStorage.getItem("profileImg");
     const [ profileImg, setProfileImg ] = useState(!!profieImgSrc ? profieImgSrc : defaultProfileImgSrc);
